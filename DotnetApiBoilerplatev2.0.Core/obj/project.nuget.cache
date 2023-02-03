@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ByBa8M+oPuXsieRyv+6Rxy4OeozB3ux4N0+WZw914AgXQUYzyQM1ztiipC/3aNoAte0c7X8JUcoVF6jWtUAIxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.Core\\DotnetApiBoilerplatev2.0.Core.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://api.nuget.org/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
