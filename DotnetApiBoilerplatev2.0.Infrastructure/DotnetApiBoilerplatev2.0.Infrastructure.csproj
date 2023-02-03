@@ -8,9 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Configurations\" />
-    <Folder Include="Enums\" />
-    <Folder Include="Secrets\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
 
@@ -23,6 +20,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetApiBoilerplatev2.0.Core\DotnetApiBoilerplatev2.0.Core.csproj" />
   </ItemGroup>
 
 </Project>

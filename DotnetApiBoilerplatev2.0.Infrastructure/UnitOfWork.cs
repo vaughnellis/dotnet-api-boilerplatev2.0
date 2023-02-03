@@ -1,12 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DotnetApiBoilerplatev2._0.Core.Interfaces;
+using DotnetApiBoilerplatev2._0.Core.Interfaces.AccountDetails;
+using DotnetApiBoilerplatev2._0.Infrastructure.Repositories.AccountDetails;
 
 namespace DotnetApiBoilerplatev2._0.Infrastructure
 {
-    internal class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
+        private readonly DataContext _context;
+        public IAccountsRepository Accounts { get; set; }
+
+        public UnitOfWork(DataContext context)
+        {
+            _context = context;
+            Accounts = new AccountsRepository(_context);
+        }
+
+        public int Complete()
+        {
+            return _context.SaveChanges();
+        }
+
+        public void Dispose()
+        {
+            _context.Dispose();
+        }
     }
 }

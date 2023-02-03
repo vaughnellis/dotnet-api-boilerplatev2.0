@@ -1306,6 +1306,16 @@
             "rid": "win"
           }
         }
+      },
+      "DotnetApiBoilerplatev2.0.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DotnetApiBoilerplatev2.0.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DotnetApiBoilerplatev2.0.Core.dll": {}
+        }
       }
     }
   },
@@ -3845,11 +3855,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DotnetApiBoilerplatev2.0.Core/1.0.0": {
+      "type": "project",
+      "path": "../DotnetApiBoilerplatev2.0.Core/DotnetApiBoilerplatev2.0.Core.csproj",
+      "msbuildProject": "../DotnetApiBoilerplatev2.0.Core/DotnetApiBoilerplatev2.0.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
+      "DotnetApiBoilerplatev2.0.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
@@ -3882,7 +3898,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Core\\DotnetApiBoilerplatev2.0.Core.csproj": {
+              "projectPath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Core\\DotnetApiBoilerplatev2.0.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
