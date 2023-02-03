@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gvDfI7UlLJa4+sQnozDW9dlXUeb9oKst18U4cWkK6iZrCur2VEtDhzmPnYuU80KukgJ1ZTHEhKfte6XMOmIx3Q==",
+  "dgSpecHash": "lMEeTbKOgOQcEXSsjOAqlgkwPmFsvqw8qdzSxR5t6rqccTXXPGnwljDkKF7T76/qnpUmTrH6IweQZecdUjzixg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.csproj",
+  "projectFilePath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\dogstatsd-csharp-client\\8.0.0\\dogstatsd-csharp-client.8.0.0.nupkg.sha512",

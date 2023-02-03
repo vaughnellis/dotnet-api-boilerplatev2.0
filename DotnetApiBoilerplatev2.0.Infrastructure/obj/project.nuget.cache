@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5CrdmPiNsZwBBToOgKU814B3BC2B5bpozFhSTiaXQiS9TwO02dKkjTn8yn44rdpKfoG7LWhBVSTpX7y5xH7PbA==",
+  "dgSpecHash": "iveeCA1ju4h9zWSVNOTzxhuhR3Er4Xn0sztZOoOAq33SYt1y2uplLKqD0WGV43DMGADk3dRvSS4QsEeA9pZFMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

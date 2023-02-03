@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj": {}
+    "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj": {
+    "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj",
         "projectName": "DotnetApiBoilerplatev2.0.Infrastructure",
-        "projectPath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\DotnetApiBoilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vaughn.ellis.ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
