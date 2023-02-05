@@ -1,4 +1,4 @@
-﻿using DotnetApiBoilerplatev2._0.Core.Models.Accounts;
+﻿using DotnetApiBoilerplatev2._0.Core.Models.AccountDetails;
 
 namespace DotnetApiBoilerplatev2._0.Core.DTO.Out
 {

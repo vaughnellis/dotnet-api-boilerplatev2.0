@@ -1,9 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "KqycC29xJHN4IFdzaMe5ACmNJadaWKLsvEz4M7efU3j+8z3UD8MSgG07j1u3HoyGYD7pdaxh7kz3YpEdPrg3tQ==",
+  "dgSpecHash": "38j9ado0nAqFsXNsiv3L2pnOewhDf+lPS7JvuSiwmnOXi7GiBMC8D04Tbk5K8PW5ULWoJ4fLM2j0KkjJIgq/sQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Core\\DotnetApiBoilerplatev2.0.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": [
     {
       "code": "NU1803",

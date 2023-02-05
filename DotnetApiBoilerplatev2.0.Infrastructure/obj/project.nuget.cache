@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y8Yy+Qi2HalyFgcfSJElnbZEXawR+ructsCg3ojeiTDIBY6CRYV+pfOsrLB/pW5B/tHFhfL1VkJcIiubIOVqMg==",
+  "dgSpecHash": "hEPjGZya2jfdq1FKb9QJvpEhPTSuXl/Qkyf/zadZoy3X9oMJm+Wp8jNuA5HxIustJs/vRYCTc1ClqjyVI/CYrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vaughn.ellis.ramos\\Documents\\Repositories\\Contributions\\Logical Components\\dotnet-api-boilerplatev2.0\\DotnetApiBoilerplatev2.0.Infrastructure\\DotnetApiBoilerplatev2.0.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vaughn.ellis.ramos\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

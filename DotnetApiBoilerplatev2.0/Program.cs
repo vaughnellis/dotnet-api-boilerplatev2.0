@@ -1,25 +1,31 @@
-var builder = WebApplication.CreateBuilder(args);
+using Serilog;
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+namespace DotnetApiBoilerplatev2._0
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var host = new WebHostBuilder()
+             .UseKestrel()
+             .UseContentRoot(Directory.GetCurrentDirectory())
+             .ConfigureAppConfiguration((hostingContext, config) =>
+             {
+                 var env = hostingContext.HostingEnvironment;
+                 config.AddJsonFile("Config/appsettings.json", optional: true, reloadOnChange: true);
+                 config.AddJsonFile("Secrets/secrets.json", optional: false, reloadOnChange: true);
+                 config.AddEnvironmentVariables();
+             })
+             .ConfigureLogging((hostingContext, logging) =>
+             {
+                 logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                 logging.AddSerilog(dispose: true);
+             })
+             .UseStartup<Startup>()
+             .Build();
+
+            host.Run();
+
+        }
+    }
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();

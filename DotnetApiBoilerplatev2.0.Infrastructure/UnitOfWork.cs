@@ -8,11 +8,15 @@ namespace DotnetApiBoilerplatev2._0.Infrastructure
     {
         private readonly DataContext _context;
         public IAccountsRepository Accounts { get; set; }
+        public IGroupAccountsRepository GroupAccounts { get; set; }
+        public IRolesRepository Roles { get; set; }
 
         public UnitOfWork(DataContext context)
         {
             _context = context;
             Accounts = new AccountsRepository(_context);
+            GroupAccounts = new GroupAccountsRepository(_context);
+            Roles = new RolesRepository(_context);
         }
 
         public int Complete()
